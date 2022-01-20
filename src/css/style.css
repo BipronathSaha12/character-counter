@@ -1,0 +1,47 @@
+/*====================================================================
+                    Common Style Property
+=====================================================================*/
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+body{
+    background-color: #2C394B;
+    width:100%;
+    height: 100vh;
+    line-height: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, sans-serif;
+    color: #f9f9f9;
+}
+
+/*===========================================================
+                    header design
+============================================================*/
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+form textarea{
+        resize: none;
+        outline: none;
+        border-radius: 10px;
+}
+
+
+/*===========================================================================
+                        description section 
+============================================================================*/
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:17px ;
+    color: #f9f9f9;
+}
+p:first-child{
+    margin-top: 50px;
+}
+p:last-child{margin-bottom: 30px; }

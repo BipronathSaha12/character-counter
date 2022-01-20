@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title of the Website-->
+    <title>Character Counter-The Best Counter Tool</title>
+    
+    <meta name="description" content="Character Count Tool is a free character counter tool that provides instant character count & word count statistics for a given text. This tool reports the number of characters and also the number of words and sentences. Character Count Tool - Character Counter monitors and reports the character counts & word counts of the text you type in real-time. Thus it is suitable for writing text with a word/a character's character limit. 
+    ">
+      <meta name="keywords" content="Character Counter character count  word counter">
+      <meta name="author" content="Bipronath Saha">
+
+    <!--shortcut icon-->
+    <link rel="shortcut icon" href="/src/assets/favicon.jpg">
+
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <!--aos css -->
+    <link rel="stylesheet" href="/src/css/aos.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+    
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-uppercase mb-5" data-aos="fade-left"> Character Counter </h1>
+                    <!--form -->
+                    <form action="/index.php" class="d-block" onsubmit="return false">
+                        <div class="form-group">
+                            <textarea name="characteer" id="characters" class="form-control" cols="30" rows="10" placeholder="Write here..."></textarea>
+                        </div>
+                    </form>
+
+                    <!--This Paragraph shows the characters and words in a sentence after counting -->
+                    <p id="showData"></p>
+                    <br>
+                    <div class="button_group mr-3 text-sm-center">
+                        <button type="submit" class="btn btn-success btnStyle text-uppercase" onclick="count()">check</button>
+                        <button class="btn btn-secondary btnStyle text-uppercase" onclick="clean()">clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Description section about Characters counter-->
+    <div id="des">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p class="lead">
+                        Character Count Tool is a free character counter tool that provides instant character count & word count statistics for a given text. This tool reports the number of characters and also the number of words and sentences. 
+                    </p>
+                    <p class="lead">                        
+                        Count Tool - Character Counter monitors and reports the character counts & word counts of the text you type in real-time. Thus it is suitable for writing text with a word/a character's character limit. 
+                    </p>
+                    <p class="lead">
+                        The word/ character limit happens on many occasions. For example: Twitter: 280, SMS: 160, Reddit Title: 300, eBay Title: 80, Yelp Post: 5000, LinkedIn Summary: 2000, Pinterest Description: 500, Blogspot description: 500, Facebook status: 63,206, title tag in HTML: only display 70 characters, meta descriptions in HTML: have no limitation but only first 155 characters are displayed in Google search results. 
+                    </p>
+                    <p class="lead">
+                        This character counter software works in any web browser such as Chrome, Firefox, Internet Explorer, Safari, Opera. It suits to count characters in Twitter, blog, books, word documents, excel documents, pdf documents, essays, novels.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer section-->
+    <footer id="copyWrite" class="p-3 bg-dark text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h6><span class="text-uppercase"> Character Counter &copy; 2021 :</span> <strong>Bipronath Saha</strong></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--bootstrap.min.js,popper.js,jquery-->
+    <script src="/src/js/jquery.slim.js"></script>
+    <script src="/src/js/popper.min.js"></script>
+    <script src="/src/js/bootstrap.min.js"></script>
+    <!--aos.js-->
+    <script src="/src/js/aos.js"></script>
+    <!--Custom JS-->
+    <script src="/src/js/app.js"></script>
+</body>
+</html>
